@@ -27,5 +27,7 @@ bin/behat "@YouBundleName"
 ```
 bin/phpunit
 bin\phpunit.bat
+bin/phpunit src/Acme/ApiBundle //test one bundle
+bin\phpunit.bat --coverage-html ./path-to-report-directory //generate report
 ```
 
