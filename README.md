@@ -10,6 +10,21 @@
 ##Tests
 
 ```
+composer install --dev
+```
+
+###Behat
+To initialize in new bundle
+```
+bin/behat --init "@YouBundleName"
+```
+*Run Bundle Suite*
+```
+bin/behat "@YouBundleName"
+```
+
+###PHPUnit
+```
 bin/phpunit
 bin\phpunit.bat
 ```

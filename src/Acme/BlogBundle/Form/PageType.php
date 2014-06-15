@@ -25,9 +25,9 @@ class PageType extends AbstractType
      */
     public function setDefaultOptions(OptionsResolverInterface $resolver)
     {
-        $resolver->setDefaults(array(
+        $resolver->setDefaults([
             'data_class' => 'Acme\BlogBundle\Entity\Page'
-        ));
+        ]);
     }
 
     /**

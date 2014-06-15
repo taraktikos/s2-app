@@ -1,5 +1,5 @@
-acme_blog_Page:
+acme_api_Test:
     type: rest
     prefix: /v1
-    resource: "Acme\BlogBundle\Controller\TestController"
+    resource: "Acme\ApiBundle\Controller\TestController"
     name_prefix:  api_1_ # naming collision
