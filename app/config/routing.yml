@@ -1,0 +1,10 @@
+acme_blog:
+    resource: "@AcmeBlogBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+acme_blog_rest:
+    type: rest
+    prefix: /api
+    resource: "@AcmeBlogBundle/Resources/config/routes.yml"
+
